@@ -1,0 +1,253 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.24f1 (6667702a1e7c) revision 6711152'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1415; Version 2009; 64bit' Language: 'ko' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/rhythm_game/Unity_2d_rhythm/Rhythm Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54427
+Successfully changed project path to: D:/unity/rhythm_game/Unity_2d_rhythm/Rhythm Game
+D:/unity/rhythm_game/Unity_2d_rhythm/Rhythm Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.24f1 (6667702a1e7c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/rhythm_game/Unity_2d_rhythm/Rhythm Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12143 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002126 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (349ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\rhythm_game\Unity_2d_rhythm\Rhythm Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\rhythm_game\Unity_2d_rhythm\Rhythm Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Domain Reload Profiling:
+	ReloadAssembly (923ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4128.
+Total: 2.876100 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.149000 ms MarkObjects: 2.429700 ms  DeleteObjects: 0.044800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/3-1 Rhythm Game Sprites/Bad.png
+  artifactKey: Guid(e89e6bdcbc6ea954ea111ae97ca1bf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Bad.png using Guid(e89e6bdcbc6ea954ea111ae97ca1bf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08de89c195e6a201bdb0498f0529e770') in 0.136839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Note 3.png
+  artifactKey: Guid(45278643249c74348a908965c3f2f6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Note 3.png using Guid(45278643249c74348a908965c3f2f6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80285957f5f3e61e678b03614b359b5') in 0.011568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Rank C.png
+  artifactKey: Guid(06d9efc4a1d2d594ea7ca0df4400957d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Rank C.png using Guid(06d9efc4a1d2d594ea7ca0df4400957d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c369e24ed53ad5dc6d9dc34676291c47') in 0.015702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.006019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Left Arrow.png
+  artifactKey: Guid(0a4ce9871a817f046ac1eeef2c82b8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Left Arrow.png using Guid(0a4ce9871a817f046ac1eeef2c82b8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dd0cc892e8517e76804717d93f87f6') in 0.013279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Rank B.png
+  artifactKey: Guid(bf2995401f5757848a4c7b3351d5e2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Rank B.png using Guid(bf2995401f5757848a4c7b3351d5e2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0373c2df0985135ad9e1acbfd51a19c7') in 0.020257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Game Background.jpg
+  artifactKey: Guid(69e36f632f1249a45ace5a4604ae028e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Game Background.jpg using Guid(69e36f632f1249a45ace5a4604ae028e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576f27a98cd1aa0ea6aa2962798291ad') in 0.018224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/3-1 Rhythm Game Sprites
+  artifactKey: Guid(af8bc3f90be57c94ebb79447dddb247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites using Guid(af8bc3f90be57c94ebb79447dddb247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670dfd8dca48aa6e20e55a1226384aea') in 0.004230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Rank S.png
+  artifactKey: Guid(7fee2d874a21396448f13e3553eca622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Rank S.png using Guid(7fee2d874a21396448f13e3553eca622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12e73dfa846cceb361860455ed4c00b') in 0.016761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Note 4.png
+  artifactKey: Guid(36e715b41685fbd419d4b17e118cad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Note 4.png using Guid(36e715b41685fbd419d4b17e118cad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ff96264fc1109647da3035cb44f580') in 0.015941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Note 2.png
+  artifactKey: Guid(975245d5615bf4a4cb784dc0eb0edf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Note 2.png using Guid(975245d5615bf4a4cb784dc0eb0edf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add6962c6f86e0a3bbc3bf954d757ad6') in 0.013478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Game Background (Shine).jpg
+  artifactKey: Guid(f13edd15e9a136b4b80e0b157121f109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Game Background (Shine).jpg using Guid(f13edd15e9a136b4b80e0b157121f109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a3330dd99bfd423a39aabd3d201256') in 0.014375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Note 1.png
+  artifactKey: Guid(8b0a8e59ac10fe548b93a7edb15fe8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Note 1.png using Guid(8b0a8e59ac10fe548b93a7edb15fe8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177071cbd85e145a9b532cd327ecb11f') in 0.012498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Perfect.png
+  artifactKey: Guid(bb98791ed327b96478224cb633727a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Perfect.png using Guid(bb98791ed327b96478224cb633727a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f56a8fbc5ce4ee24b00d145b0c658f') in 0.017499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Result Background.jpg
+  artifactKey: Guid(754f2d656ed3b064a8b7c1b82e872a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Result Background.jpg using Guid(754f2d656ed3b064a8b7c1b82e872a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15b73fc26a71ab8cb7d6014bb20e25c') in 0.020479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Square.png
+  artifactKey: Guid(e4753e734693a6c45a41849d526f332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Square.png using Guid(e4753e734693a6c45a41849d526f332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9863c56a103cc47aa8d919900b6413') in 0.014004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Rank A.png
+  artifactKey: Guid(5f9f9d843c060ce448ff862b7ba6a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Rank A.png using Guid(5f9f9d843c060ce448ff862b7ba6a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f5131cce189de7eb8f24b7ea970658') in 0.016187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Good.png
+  artifactKey: Guid(6482cabf9076bbf4096314c24f7fb5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Good.png using Guid(6482cabf9076bbf4096314c24f7fb5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af849b37a012bf39cac0d6880a4a3450') in 0.017423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Miss.png
+  artifactKey: Guid(2c7a28ed056c64a4a8551c64c84b98af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Miss.png using Guid(2c7a28ed056c64a4a8551c64c84b98af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31575ff74ff916dfa9fda802bd2c5fa1') in 0.013655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/3-1 Rhythm Game Sprites/Select Background.jpg
+  artifactKey: Guid(992c328a10d11ed4e852ea4941aa0f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3-1 Rhythm Game Sprites/Select Background.jpg using Guid(992c328a10d11ed4e852ea4941aa0f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b490860d84d2c850630197683724c816') in 0.016339 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
