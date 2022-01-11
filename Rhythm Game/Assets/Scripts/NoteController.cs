@@ -20,7 +20,7 @@ public class NoteController : MonoBehaviour
     private List<Note> notes = new List<Note>();
     private float beatInterval = 1.0f;
 
-    IEnumerator AwaitMakeNote(Note note)
+    IEnumerator delayNote(Note note)
     {
         int noteType = note.noteType;
         int order = note.order;
@@ -42,7 +42,7 @@ public class NoteController : MonoBehaviour
      
     for(int i=0; i < notes.Count; i++)
     {
-        StartCoroutine(AwaitMakeNote(notes[i]));
+        StartCoroutine(delayNote(notes[i]));
     }
 }
 
