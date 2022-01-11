@@ -24,7 +24,7 @@ public class NoteBehavior : MonoBehaviour
         //key 입력 디버그
         if (Input.GetKey(key))
         {
-            Debug.Log(judge);
+            GameManager.instance.processJudge(judge, noteType);
             if (judge != GameManager.judges.NONE) Destroy(gameObject);
         }
     }
@@ -47,6 +47,7 @@ public class NoteBehavior : MonoBehaviour
         else if (judgment.gameObject.tag == "Miss Line")
         {
             judge = GameManager.judges.MISS;
+            GameManager.instance.processJudge(judge, noteType);
             Destroy(gameObject);
         }
      
