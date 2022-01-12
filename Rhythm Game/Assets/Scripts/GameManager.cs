@@ -26,6 +26,9 @@ public class GameManager : MonoBehaviour
     private Animator comboAnimator;
     public int maxCombo;
 
+    // 음악 변수
+    private AudioSource audioSource;
+    private string music = "music";
 
     public enum judges { NONE = 0, BAD, GOOD, PERFECT, MISS };
     public GameObject judgeUI;
@@ -33,9 +36,21 @@ public class GameManager : MonoBehaviour
     private Image judgementSpriteRenderer;
     private Animator judgementSpriteAnimator;
 
+    // 음악을 실행하는 함수입니다.
+    void MusicStart()
+    {
+        // 리소스에서 비트(Beat) 음악 파일을 불러와 재생합니다.
+        AudioClip audioClip = Resources.Load<AudioClip>("Beats/" +music);
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = audioClip;
+        audioSource.Play();
+    }
+
+
 
     void Start()
     {
+        Invoke("MusicStart", 2);
         judgementSpriteRenderer = judgeUI.GetComponent<Image>();
         judgementSpriteAnimator = judgeUI.GetComponent<Animator>();
         scoreText = scoreUI.GetComponent<Text>();
