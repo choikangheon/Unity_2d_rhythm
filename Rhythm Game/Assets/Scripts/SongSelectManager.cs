@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class SongSelectManager : MonoBehaviour
 {
-    
+
     public Image musicImageUI;
     public Text musicTitleUI;
     public Text bpmUI;
@@ -24,7 +24,7 @@ public class SongSelectManager : MonoBehaviour
         AudioSource audioSource = GetComponent<AudioSource>();
         audioSource.Stop();
         // 리소스에서 비트(Beat) 텍스트 파일을 불러옵니다.
-        TextAsset textAsset = Resources.Load<TextAsset >("Beats/" + musicIndex.ToString());
+        TextAsset textAsset = Resources.Load<TextAsset>("Beats/" + musicIndex.ToString());
         StringReader stringReader = new StringReader(textAsset.text);
         // 첫 번째 줄에 적힌 곡 이름을 읽어서 UI를 업데이트합니다.
         musicTitleUI.text = stringReader.ReadLine();
@@ -40,11 +40,11 @@ public class SongSelectManager : MonoBehaviour
         musicImageUI.sprite = Resources.Load<Sprite>("Beats/" + musicIndex.ToString());
 
     }
- 
 
-  
 
-    
+
+
+
 
     public void Right()
     {
@@ -60,21 +60,20 @@ public class SongSelectManager : MonoBehaviour
         UpdateSong(musicIndex);
     }
 
-   
+
 
     void Start()
     {
-        
+
         musicIndex = 1;
         UpdateSong(musicIndex);
-        
+
 
     }
 
     public void GameStart()
     {
-        
-        
+
         SceneManager.LoadScene("Game");
     }
 
