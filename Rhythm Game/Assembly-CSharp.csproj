@@ -59,7 +59,12 @@
     <Compile Include="Assets\Scripts\NoteBehavior.cs" />
     <Compile Include="Assets\Scripts\NoteController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\ResultInfo.cs" />
     <Compile Include="Assets\Scripts\BackgroundColor.cs" />
+    <Compile Include="Assets\Scripts\ResultManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\Beats\1.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

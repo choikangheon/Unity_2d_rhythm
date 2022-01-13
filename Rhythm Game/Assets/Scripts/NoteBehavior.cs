@@ -29,6 +29,7 @@ public class NoteBehavior : MonoBehaviour
         }
     }
 
+
     //라인판정선에 따른 점수
     private void OnTriggerEnter2D(Collider2D judgment) // 충돌에 따른
     {
@@ -43,6 +44,11 @@ public class NoteBehavior : MonoBehaviour
         else if (judgment.gameObject.tag == "Perfect Line")
         {
             judge = GameManager.judges.PERFECT;
+            if(GameManager.instance.autoTest)
+            {
+                GameManager.instance.processJudge(judge, noteType);
+                gameObject.SetActive(false);
+            }
         }
         else if (judgment.gameObject.tag == "Miss Line")
         {

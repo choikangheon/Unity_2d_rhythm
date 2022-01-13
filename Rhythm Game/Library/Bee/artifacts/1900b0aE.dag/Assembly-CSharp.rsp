@@ -345,6 +345,8 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/NoteBehavior.cs"
 "Assets/Scripts/NoteController.cs"
+"Assets/Scripts/ResultInfo.cs"
+"Assets/Scripts/ResultManager.cs"
 -langversion:8.0
 
 /deterministic

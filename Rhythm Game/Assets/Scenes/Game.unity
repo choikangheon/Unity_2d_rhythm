@@ -1182,8 +1182,10 @@ MonoBehaviour:
   scoreUI: {fileID: 1266932990}
   score: 0
   comboUI: {fileID: 636021819}
+  combo: 0
   maxCombo: 0
   judgeUI: {fileID: 1136879399}
+  autoTest: 0
 --- !u!4 &704542264
 Transform:
   m_ObjectHideFlags: 0

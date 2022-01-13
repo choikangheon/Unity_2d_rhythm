@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     private Text scoreText;
 
     public GameObject comboUI;
-    private int combo;
+    public int combo;
     private Text comboText;
     private Animator comboAnimator;
     public int maxCombo;
@@ -35,6 +35,10 @@ public class GameManager : MonoBehaviour
     private Sprite[] judgeSprites;
     private Image judgementSpriteRenderer;
     private Animator judgementSpriteAnimator;
+
+
+    //auto
+    public bool autoTest;
 
     // 음악을 실행하는 함수입니다.
     void MusicStart()
@@ -50,7 +54,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        Invoke("MusicStart", 2);
+        Invoke("MusicStart", 1);
         judgementSpriteRenderer = judgeUI.GetComponent<Image>();
         judgementSpriteAnimator = judgeUI.GetComponent<Animator>();
         scoreText = scoreUI.GetComponent<Text>();
