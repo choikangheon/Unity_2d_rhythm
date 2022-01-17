@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637762902770662672
+      ticks: 637780176744053808
     m_Hash: 2364693787
   m_LockFileStatus:
     m_FilePath: D:/unity/rhythm_game/Unity_2d_rhythm/Rhythm Game/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637762902770662672
+      ticks: 637780176744053808
     m_Hash: 3423057583
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -931,10 +931,12 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.0.7
     - 3.0.9
+    - 3.0.10
     compatible:
     - 3.0.7
     - 3.0.9
-    verified: 3.0.9
+    - 3.0.10
+    verified: 3.0.10
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
